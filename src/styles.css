@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  font-family: Arial;
+}
+
+.selected {
+  background: yellow !important;
+}
+
+.optionsStyle {
+  padding: 8px;
+  border: 3px solid #000;
+  cursor: pointer;
+  width: 100%;
+  background-color: white;
+  color: steelblue;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 5px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  background-color: teal;
+}
+.nextButton {
+  background-color: lightcoral;
+  color: white;
+  font-size: 14px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.finishButton {
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
